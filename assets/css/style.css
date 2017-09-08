@@ -1,60 +1,79 @@
 body {
 	background: url(https://images.unsplash.com/photo-1493246507139-91e8fad9978e?dpr=1.25&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=);
 	background-size: cover;
+	background-repeat: none;
 	color: white;
 	font-family: Garamond;
 }
 #wrapper {
 	text-align: center;	
 }
+#wrapper > * {
+	margin: 1%;
+	padding: 1%;
+}
 
 /* *** Header *** */
 h1 {
 	font-family: 'Fugaz One', cursive;
-	font-size: 50px;
+	font-size: xx-large;
 	text-shadow: 5px 4px black, -1px -1px #444;
 }
 h2 {
 	font-family: 'Fugaz One', cursive;
-	font-size: 20px;
+	font-size: large;
+	text-shadow: 1px 1px black;	
+}
+p {
+	font-size: large;
+	text-shadow: 1px 1px black;
 }
 a {
-	color: red;
-	text-decoration:underline;
+	color: lightcoral;
+	text-decoration: underline;
 }
 a:hover {
-	color:black;
-	text-decoration:none;
+	color: black;
+	text-decoration: none;
 }
   
 /* *** Quote-Machine *** */
 #quote-machine {
 	background-color: gray;
-	width: 60%;
-	margin: 60px auto;
-	padding: 30px;
 	border: 3px solid white;
 	border-radius: 5px;
+	margin: 100px auto;
+	padding: 50px 40px;
+	max-width: 60%; 
+	min-height: auto;
+	font-family: Garamond;
 	box-shadow: 0 0 20px rgba(0,0,0,0.9);
-	min-height:250px;
-	font-family: Courier;
 }
 #quote {
-	font-size:25px;
+	font-size: x-large;
 }
 #author {
-	font-size: 20px;
+	font-size: medium;
 }
 
 /* *** Buttons *** */
 button {
+	border-radius: 5px;
 	margin: 0 auto;
-	box-shadow: 0 0 10px rgba(0,0,0,0.6);
 	font-family: Garamond;
+	font-size: large;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+	transition: all 0.2s ease;
 }
 button:hover {
-	color: red;
-	border: 1px solid red;
+	background: lightcoral;
+	border-radius: 10px;
+	color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+	transform: scale(1.1);
 }
 
 /* *** Footer *** */
+footer p {
+	font-size: medium;
+}
