@@ -2,12 +2,15 @@
 <html>
 <head>
 	<title>Random Quote Machine by travelDev</title>
+	<!-- Local Files -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- jQuery -->
 	<script	src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
 </head>
 <body>
-	<div id="wrapper">
+	<div id="main">
 		<header>
 			<h1>Random Quote Machine</h1>
 			<h2>by Timothy Hoang (<a href="https://www.youtube.com/c/traveldev" target=_blank>travelDev</a>)</h2>
@@ -16,19 +19,20 @@
 		
 		<section id="quote-machine">
 			<span id="quote"></span>
+			<br>
 			<span id="author"></span>
 		</section>
 
 		<section id="buttons">
-			<button id="new-quote" type="submit">New Quote</button>
-			<button id="twitter-share">Twitter</button>
-			<button id="facebook-share">Facebook</button>
+			<button id="new-quote" type="submit" target=_blank>New Quote</button>
+			<button id="twitter-share" target=_blank>Twitter</button>
+			<button id="facebook-share" target=_blank>Facebook</button>
 		</section>
 
 		<footer>
 			<p>Technologies deployed: JavaScript, jQuery, <a href="https://forismatic.com/en/api/" target=_blank>Forismatic API</a>.</p>
 		</footer>
-	</div>
+	</div> <!-- main -->
 	<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>

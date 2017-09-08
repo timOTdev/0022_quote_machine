@@ -1,14 +1,14 @@
 body {
-	background: url(https://images.unsplash.com/photo-1493246507139-91e8fad9978e?dpr=1.25&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=);
+	background: url('https://images.unsplash.com/photo-1493246507139-91e8fad9978e?dpr=1.25&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=');
 	background-size: cover;
 	background-repeat: none;
-	color: white;
 	font-family: Garamond;
+	color: white;
 }
-#wrapper {
+#main {
 	text-align: center;	
 }
-#wrapper > * {
+#main > * {
 	margin: 1%;
 	padding: 1%;
 }
@@ -29,23 +29,23 @@ p {
 	text-shadow: 1px 1px black;
 }
 a {
-	color: lightcoral;
 	text-decoration: underline;
+	color: lightcoral;
 }
 a:hover {
-	color: black;
 	text-decoration: none;
+	color: black;
 }
   
 /* *** Quote-Machine *** */
 #quote-machine {
-	background-color: gray;
-	border: 3px solid white;
-	border-radius: 5px;
 	margin: 100px auto;
 	padding: 50px 40px;
 	max-width: 60%; 
 	min-height: auto;
+	background-color: gray;
+	border: 3px solid white;
+	border-radius: 5px;
 	font-family: Garamond;
 	box-shadow: 0 0 20px rgba(0,0,0,0.9);
 }
@@ -58,8 +58,8 @@ a:hover {
 
 /* *** Buttons *** */
 button {
-	border-radius: 5px;
 	margin: 0 auto;
+	border-radius: 5px;
 	font-family: Garamond;
 	font-size: large;
 	box-shadow: 0 0 10px rgba(0,0,0,0.6);
