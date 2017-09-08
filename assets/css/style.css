@@ -1,5 +1,5 @@
 body {
-	background: url('https://images.unsplash.com/photo-1493246507139-91e8fad9978e?dpr=1.25&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=');
+	background: url('file:///d:/webdev/myprojects/quote-machine/assets/img/lake-valley-1920x1280.jpg');
 	background-size: cover;
 	background-repeat: none;
 	font-family: Garamond;
@@ -39,7 +39,7 @@ a:hover {
   
 /* *** Quote-Machine *** */
 #quote-machine {
-	margin: 100px auto;
+	margin: 50px auto;
 	padding: 50px 40px;
 	max-width: 60%; 
 	min-height: auto;
