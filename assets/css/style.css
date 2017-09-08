@@ -1,5 +1,5 @@
 body {
-	background: url('file:///d:/webdev/myprojects/quote-machine/assets/img/lake-valley-1920x1280.jpg');
+	background-image: url("../img/lake-valley-1920x1280.jpg");
 	background-size: cover;
 	background-repeat: none;
 	font-family: Garamond;
